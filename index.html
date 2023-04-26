@@ -11,105 +11,12 @@
 </head>
 
 <body>
-  <header id="home" class="header">
-    <nav class="header-nav container">
-        <div class="header-nav__logo">Stickerz</div>
-        <div class="header-nav__menu">
-            <a href="index.html" class="header-nav__menu-item">Home</a>
-            <a href="#products" class="header-nav__menu-item">Products</a>
-            <a href="#contacts" class="header-nav__menu-item">Contacts</a>
-            <a href="cart.html" class="header-nav__menu-item">Cart</a>
-            <a href="#" class="header-nav__menu-item header__clock"></a>
-        </div>
-    </nav>
-    <div class="header-banner container">
-        <h1 class="header-banner__h1">Stickerz</h1>
-        <div class="button-container">
-            <a href="#products" class="header-banner__button button"><span>Shop now</span></a>
-        </div>
-    </div>
-  </header>
+  <header data-include="header.partial.html"></header>
   <main>
-    <section class="products container">
-        <h2 id="products" class="products__h2">Products</h2>
-        <div class="animated-carousel">
-          <div class="animated-carousel__inner">
-            <article class="product-card">
-              <img src="img/baby-yoda.svg" alt="Baby Yoda">
-              <h3 class="product-card__h3">Baby Yoda</h3>
-              <p class="product-card__description">
-                lorem ipsum...
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">Info</button>
-                <button class="product-card__buttons-buy button button-card">Buy - 10.99</button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img src="img/banana.svg" alt="Banana">
-              <h3 class="product-card__h3">Banana</h3>
-              <p class="product-card__description">
-                lorem ipsum...
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy - 9.99
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img src="img/girl.svg" alt="Girl">
-              <h3 class="product-card__h3">Girl</h3>
-              <p class="product-card__description">
-                lorem ipsum...
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy - 12.99
-                </button>
-              </div>
-            </article>
-            <article class="product-card">
-              <img src="img/viking.svg" alt="Viking">
-              <h3 class="product-card__h3">Viking</h3>
-              <p class="product-card__description">
-                lorem ipsum...
-              </p>
-              <div class="product-card__buttons">
-                <button class="product-card__buttons-info button button-card">
-                  Info
-                </button>
-                <button class="product-card__buttons-buy button button-card">
-                  Buy - 13.99
-                </button>
-              </div>
-            </article>
-          </div>
-          <button class="carousel__button carousel__button--prev">Prev</button>
-          <button class="carousel__button carousel__button--next">Next</button>
-        </div>
-        <div class="products__carousel">
-          <button class="products__carousel-btn-prev">⬅️</button>
-          <div class="products__carousel-slide"></div>
-          <button class="products__carousel-btn-next">➡️</button>
-        </div>
-        <div class="products__list"> </div>
-    </section>
+    <section data-include="products.partial.html"></section>
   </main>
-  <footer id="contacts" class="footer container">
-      <h2>Contact <span class="ui-brand">Us</span></h2>
-      <form action="" class="footer__contacts">
-          <input type="text" name="name" placeholder="name" />
-          <input type="email" name="email" placeholder="email" />
-          <button class="button button-card">Submit</button>
-      </form>
-  </footer>
+  <footer data-include="footer.partial.html"></footer>
+  <script src="https://unpkg.com/html-data-include@2.2.2/html-data-include.js"></script>
   <script type="module" src="js/index.js"></script>
 </body>
 

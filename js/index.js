@@ -1,8 +1,10 @@
-import './header-title.js';
-import './header-clock.js';
-import './product-list.js';
-import './products-carousel.js';
-import './animated-carousel.js';
+document.addEventListener("partialsLoaded", () => {
+    import('./header-title.js');
+    import('./header-clock.js');
+    import('./product-list.js');
+    import('./products-carousel.js');
+    import('./animated-carousel.js');
+});
 
 
 
