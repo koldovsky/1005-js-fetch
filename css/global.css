@@ -9,6 +9,7 @@
 :root {
     --main-color: black;
     --accent-color:  #a6c7cf;
+    --selected-color: red;
     font-family: 'DotGothic16', sans-serif;
     scroll-behavior: smooth;
 }
@@ -23,3 +24,6 @@ img {
     margin: auto;
 }
 
+.selected {
+    color: var(--selected-color);
+}

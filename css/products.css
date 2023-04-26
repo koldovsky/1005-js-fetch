@@ -1,3 +1,12 @@
+.products__carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.products__carousel-slide {
+    display: flex;
+}
+
 .product-card {
     border: 1px solid var(--accent-color);
     padding: 5px;
