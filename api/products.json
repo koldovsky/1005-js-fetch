@@ -1,0 +1,31 @@
+[
+    {
+       "id":"1",
+       "title":"Baby Yoda",
+       "price":7.99,
+       "image":"img/baby-yoda.svg",
+       "description":"The cutest thing in the galaxy. This is the way."
+    },
+    {
+       "id":"2",
+       "title":"Banana",
+       "price":8.99,
+       "image":"img/banana.svg",
+       "description":"A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa."
+    },
+    {
+       "id":"3",
+       "title":"Girl",
+       "price":9.99,
+       "image":"img/girl.svg",
+       "description":"Girl sticker"
+    },
+    {
+       "id":"4",
+       "title":"Viking",
+       "price":9.59,
+       "image":"img/viking.svg",
+       "description":"Viking sticker"
+    }
+ ]
+ 

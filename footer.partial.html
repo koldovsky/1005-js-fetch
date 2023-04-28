@@ -1,8 +1,15 @@
 <footer id="contacts" class="footer container">
     <h2>Contact <span class="ui-brand">Us</span></h2>
-    <form action="" class="footer__contacts">
-        <input type="text" name="name" placeholder="name" />
-        <input type="email" name="email" placeholder="email" />
-        <button class="button button-card">Submit</button>
+    <textarea class="contacts__message" id="" cols="30" rows="10"></textarea>
+    <button class="button button-card contacts__submit">Submit</button>
+    <div class="contacts__response"></div>
+    <form id="contact-form-formspree" action="https://formspree.io/f/xpzyvoez" method="POST">
+        <h3>Formspree</h3>
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        <button>Submit</button>
     </form>
+    <div id="contact-form-status"></div>
 </footer>

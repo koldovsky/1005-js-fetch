@@ -1,0 +1,59 @@
+test
+test2
+hello
+1st
+hello2
+а в мене вантажиться сайт ))
+
+it is verycomplicated
+Хеллоу
+qq
+хахах
+Хеллоу
+qq
+fixed
+hello guys
+hi
+aaaaaaaaAAAAAAAAAA
+test
+
+
+
+
+айти дело такое
+test chat
+aaaaaaaaAAAAAAAAAA
+весела штука
+івапівпавіп
+hello world
+
+Привіт
+чат на мінімалках)
+чат на мінімалках)
+
+
+
+<style> body { color: red; }</style> some test
+<p <style> body { color: black; }</style>> next test </p>
+<p <style> { color: black; }</style>> next test </p>
+
+
+
+
+<style> { font-size: 20}</style>
+<style> { font-size: 20}</style>
+body { color: white; }> next test 
+<style> . { font-size: 20}</style>
+<style> . { font-size: 20}</style>
+
+<style> * { font-size: 20}</style>
+<style> * { font-size: 20}</style>
+
+123
+>>
+>>
+<style> * { font-size: 20;}</style>
+<style> * { font-size: 20;}</style>
+
+<style> body { background-color:rebeccapurple;}</style>
+

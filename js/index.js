@@ -4,7 +4,10 @@ document.addEventListener("partialsLoaded", () => {
     import('./product-list.js');
     import('./products-carousel.js');
     import('./animated-carousel.js');
+    import('./contact-form-formspree.js');
+    import('./chat.js');
 });
+
 
 
 
